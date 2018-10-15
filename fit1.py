@@ -21,7 +21,6 @@ print(r_squared)
 xnew = np.linspace(0,10)
 
 plt.plot(x, y, 'bo')
-# plt.plot(xnew, func(xnew, *popt), 'k-')
 plt.plot(xnew, func(xnew, *popt_cons), 'r-')
 plt.axis([0, 2, 0, 2])
 plt.show()
